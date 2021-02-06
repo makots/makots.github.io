@@ -30,9 +30,12 @@ twitter_username: makots
 github_username:  makots
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - github-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
